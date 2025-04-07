@@ -58,9 +58,15 @@ console.log(typeof "hello");  // typeof: Outputs "string"
 console.log([] instanceof Array);  // instanceof: true (checks if it's an instance of Array)
 
 // Ternary Operator
-let age = 18;
-let isAdult = age >= 18 ? "Yes" : "No";
-console.log(isAdult);          // Outputs "Yes"
+let age = 21
+
+let result = age > 30 ? "yes" : "no";
+
+console.log(result);
+
+
+
+// Outputs "Yes"
 
 // Nullish Coalescing Operator
 let username = null;

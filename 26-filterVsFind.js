@@ -4,11 +4,11 @@ let employees = [
     { empName: "David", Salary: 80000 }
 ]
 
-let filterData = employees.filter( val => val.Salary>10000)
+let filterData = employees.filter(val, name => { return val.Salary >= 90000, name.empName })
 
 console.log(filterData);
 
-let filterData1 = employees.filter
+
 
 
 

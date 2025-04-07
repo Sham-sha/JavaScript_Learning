@@ -7,7 +7,7 @@ Each item in the array has a position called an index, and you can access each i
 primitive - store single value
 non-primitive - store multiple value 
 It can hold homogeneous and heterogenous
-*/
+
 
 
 let numbers = ["one", "two", "three", "four", 1, true, NaN, null, { No: 1 }]
@@ -42,3 +42,12 @@ console.log(num1);
 
 
 // Sparse Array in Javascript
+
+
+*/
+
+let arr = [1,2,3,4,5]
+
+let newArr = arr.slice(1,arr.length)
+
+console.log(newArr);
